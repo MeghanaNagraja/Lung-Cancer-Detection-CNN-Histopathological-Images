@@ -15,21 +15,13 @@ The dataset contains 15000 images of three classes equally distributed which are
 
     - Dataframe with image files paths and respective categories is created
     - EDA shows equal distribution of data. sample images platted
-    - Data is split to train, validation and test set
+    - Data is split to train, validation and test sets
+    - Images are already augmented. No additional augmentation performed
+    - Conv2D model built with 3 layers
+    - Checkpoint used to save best performing model
+    - Model is trained with 60 epochs. Callback is added monitoring validation accuracy
+    - Training history is plotted. 96% of validation accuracy is achieved.
+    - Saved model is used to make predictions on test set, confusion matrix plotted
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ![Capture](https://github.com/MeghanaNagraja/Lung-Cancer-Detection-CNN-Histopathological-Images/assets/122547199/c83e5467-1ef3-408b-ac13-840dfab7cc53)
 ![Capture3](https://github.com/MeghanaNagraja/Lung-Cancer-Detection-CNN-Histopathological-Images/assets/122547199/45f5e66e-34ed-46fd-a088-57e51084dc4d)

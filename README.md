@@ -14,7 +14,7 @@ The dataset contains 15000 images of three classes equally distributed which are
 #Approach
 
     - Dataframe with image files paths and respective categories is created
-    - EDA shows equal distribution of data. sample images platted
+    - EDA shows equal distribution of data. sample images plotted
     - Data is split to train, validation and test sets
     - Images are already augmented. No additional augmentation performed
     - Conv2D model built with 3 layers
